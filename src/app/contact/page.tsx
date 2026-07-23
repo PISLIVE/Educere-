@@ -156,26 +156,34 @@ export default function ContactPage() {
             {/* Map + Social */}
             <AnimatedSection direction="right">
               <div className={styles.mapCard}>
-                <div className={styles.mapPlaceholder}>
-                  <MapPin size={48} />
-                  <p>Google Maps</p>
-                  <span>House No. 01, 2nd Floor, Bylane 06, Dr. Zakir Hussain Road, Guwahati</span>
-                </div>
+                <iframe 
+                  src="https://maps.google.com/maps?q=House+No.+01,+2nd+Floor,+Bylane+06,+Dr.+Zakir+Hussain+Road,+Guwahati&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                  width="100%" 
+                  height="300" 
+                  style={{ border: 0, display: 'block' }} 
+                  allowFullScreen 
+                  loading="lazy" 
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
               </div>
               <div className={styles.socialCard}>
                 <h4>Follow Us</h4>
                 <div className={styles.socialLinks}>
-                  <a href="#" className={styles.socialLink} aria-label="Instagram">
-                    <Camera size={22} /> Instagram
+                  <a href="#" className={`${styles.socialLink} ${styles.instagram}`} aria-label="Instagram">
+                    <div className={styles.iconCircle}><Camera size={18} /></div>
+                    <span>Instagram</span>
                   </a>
-                  <a href="#" className={styles.socialLink} aria-label="Facebook">
-                    <Globe size={22} /> Facebook
+                  <a href="#" className={`${styles.socialLink} ${styles.facebook}`} aria-label="Facebook">
+                    <div className={styles.iconCircle}><Globe size={18} /></div>
+                    <span>Facebook</span>
                   </a>
-                  <a href="#" className={styles.socialLink} aria-label="YouTube">
-                    <Play size={22} /> YouTube
+                  <a href="#" className={`${styles.socialLink} ${styles.youtube}`} aria-label="YouTube">
+                    <div className={styles.iconCircle}><Play size={18} /></div>
+                    <span>YouTube</span>
                   </a>
-                  <a href="#" className={styles.socialLink} aria-label="WhatsApp">
-                    <MessageCircle size={22} /> WhatsApp
+                  <a href="#" className={`${styles.socialLink} ${styles.whatsapp}`} aria-label="WhatsApp">
+                    <div className={styles.iconCircle}><MessageCircle size={18} /></div>
+                    <span>WhatsApp</span>
                   </a>
                 </div>
               </div>
