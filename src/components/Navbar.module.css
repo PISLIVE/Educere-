@@ -169,6 +169,19 @@
   background: var(--color-secondary-light);
 }
 
+.mobileThemeToggle {
+  display: none;
+  width: 100%;
+  margin-top: var(--space-md);
+  padding: 0.8rem;
+  font-family: var(--font-heading);
+  font-weight: 500;
+  font-size: 1.05rem;
+  justify-content: flex-start;
+  gap: var(--space-md);
+  color: var(--text-secondary);
+}
+
 .ctaBtn {
   font-size: 0.85rem !important;
 }
@@ -279,5 +292,13 @@
 
   .mobileMenu {
     width: 100%;
+  }
+
+  .desktopThemeToggle {
+    display: none;
+  }
+
+  .mobileThemeToggle {
+    display: flex;
   }
 }

@@ -82,7 +82,7 @@ export default function Navbar() {
           <div className={styles.navRight}>
             {mounted && (
               <button
-                className={styles.themeToggle}
+                className={`${styles.themeToggle} ${styles.desktopThemeToggle}`}
                 onClick={toggleTheme}
                 aria-label="Toggle theme"
               >
@@ -119,6 +119,19 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
+          {mounted && (
+            <button
+              className={`${styles.themeToggle} ${styles.mobileThemeToggle}`}
+              onClick={toggleTheme}
+              aria-label="Toggle theme"
+            >
+              {theme === 'dark' ? (
+                <><Sun size={20} /> Switch to Light Mode</>
+              ) : (
+                <><Moon size={20} /> Switch to Dark Mode</>
+              )}
+            </button>
+          )}
           <Link href="/admission" className={`btn btn-primary ${styles.mobileCta}`}>
             Enroll Now
           </Link>
