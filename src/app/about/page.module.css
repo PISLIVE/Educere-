@@ -180,8 +180,8 @@
 
 .facilityCard:hover {
   border-color: var(--color-primary);
-  box-shadow: var(--shadow-lg);
-  transform: translateY(-4px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05), var(--shadow-glow);
+  transform: translateY(-4px) scale(1.02);
 }
 
 .facilityIcon {

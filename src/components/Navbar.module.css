@@ -46,8 +46,8 @@
   z-index: 1010;
   padding: 0.6rem 0;
   background: var(--glass-bg);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(32px);
+  -webkit-backdrop-filter: blur(32px);
   border-bottom: 1px solid var(--glass-border);
   transition: all var(--transition-base);
 }
