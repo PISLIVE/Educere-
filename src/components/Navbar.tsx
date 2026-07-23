@@ -42,9 +42,9 @@ export default function Navbar() {
             🎓 Admissions Open 2026-27 — Limited Seats Available!
           </span>
           <div className={styles.topBarRight}>
-            <a href="tel:+919876543210" className={styles.topBarLink}>
+            <a href="tel:+919127581139" className={styles.topBarLink}>
               <Phone size={14} />
-              +91 98765 43210
+              +91 91275 81139
             </a>
           </div>
         </div>

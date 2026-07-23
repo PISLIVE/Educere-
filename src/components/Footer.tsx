@@ -98,11 +98,11 @@ export default function Footer() {
             <ul className={styles.contactList}>
               <li className={styles.contactItem}>
                 <MapPin size={18} className={styles.contactIcon} />
-                <span>123, Education Hub, Kota, Rajasthan — 324001</span>
+                <span>House No. 01, 2nd Floor, Bylane 06, Dr. Zakir Hussain Road, Guwahati — 781006</span>
               </li>
               <li className={styles.contactItem}>
                 <Phone size={18} className={styles.contactIcon} />
-                <a href="tel:+919876543210">+91 98765 43210</a>
+                <a href="tel:+919127581139">+91 91275 81139</a>
               </li>
               <li className={styles.contactItem}>
                 <Mail size={18} className={styles.contactIcon} />

@@ -8,9 +8,9 @@ import SectionHeading from '@/components/SectionHeading';
 import styles from './page.module.css';
 
 const contactInfo = [
-  { icon: <Phone size={24} />, title: 'Phone', value: '+91 98765 43210', href: 'tel:+919876543210', color: '#6366F1' },
+  { icon: <Phone size={24} />, title: 'Phone', value: '+91 91275 81139', href: 'tel:+919127581139', color: '#6366F1' },
   { icon: <Mail size={24} />, title: 'Email', value: 'info@educereclasses.com', href: 'mailto:info@educereclasses.com', color: '#EC4899' },
-  { icon: <MapPin size={24} />, title: 'Address', value: '123, Education Hub, Kota, Rajasthan — 324001', href: '#map', color: '#10B981' },
+  { icon: <MapPin size={24} />, title: 'Address', value: 'House No. 01, 2nd Floor, Bylane 06, Dr. Zakir Hussain Road, Guwahati — 781006', href: '#map', color: '#10B981' },
   { icon: <Clock size={24} />, title: 'Working Hours', value: 'Mon - Sat: 7:00 AM - 8:00 PM', href: '#', color: '#F59E0B' },
 ];
 
@@ -159,7 +159,7 @@ export default function ContactPage() {
                 <div className={styles.mapPlaceholder}>
                   <MapPin size={48} />
                   <p>Google Maps</p>
-                  <span>123, Education Hub, Kota, Rajasthan</span>
+                  <span>House No. 01, 2nd Floor, Bylane 06, Dr. Zakir Hussain Road, Guwahati</span>
                 </div>
               </div>
               <div className={styles.socialCard}>
