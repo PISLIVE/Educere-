@@ -169,19 +169,6 @@
   background: var(--color-secondary-light);
 }
 
-.mobileThemeToggle {
-  display: none;
-  width: 100%;
-  margin-top: var(--space-md);
-  padding: 0.8rem;
-  font-family: var(--font-heading);
-  font-weight: 500;
-  font-size: 1.05rem;
-  justify-content: flex-start;
-  gap: var(--space-md);
-  color: var(--text-secondary);
-}
-
 .ctaBtn {
   font-size: 0.85rem !important;
 }
@@ -294,11 +281,23 @@
     width: 100%;
   }
 
-  .desktopThemeToggle {
-    display: none;
+  .logoName {
+    font-size: 1.1rem;
   }
 
-  .mobileThemeToggle {
-    display: flex;
+  .logoTag {
+    font-size: 0.55rem;
+    letter-spacing: 0.1em;
+  }
+
+  .logoIcon {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+@media (max-width: 360px) {
+  .logoText {
+    display: none;
   }
 }
