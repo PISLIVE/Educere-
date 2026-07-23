@@ -152,6 +152,13 @@
   background: rgba(0, 0, 0, 0.8);
 }
 
+.lightboxImageWrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/10;
+  background: black;
+}
+
 .lightboxImage {
   width: 100%;
   aspect-ratio: 16/10;

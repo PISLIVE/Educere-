@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import {
   ArrowRight, Sparkles, GraduationCap, Users, Trophy, Target,
@@ -26,12 +27,12 @@ const whyChooseUs = [
 ];
 
 const toppers = [
+  { name: 'Murashra Yesmin', rank: 'Qualified', exam: 'UGC NET', college: 'Lectureship', image: '/gallery/1.jpg' },
+  { name: 'Mousumi Bharali', rank: 'Qualified', exam: 'UGC NET', college: 'Lectureship', image: '/gallery/2.jpg' },
   { name: 'Aditya Kumar', rank: 'AIR 245', exam: 'JEE Advanced', college: 'IIT Bombay' },
   { name: 'Priya Mehta', rank: 'AIR 189', exam: 'NEET UG', college: 'AIIMS Delhi' },
   { name: 'Rohit Verma', rank: '99.8%ile', exam: 'JEE Main', college: 'NIT Trichy' },
   { name: 'Sneha Reddy', rank: 'AIR 512', exam: 'NEET UG', college: 'Govt. Medical' },
-  { name: 'Ananya Singh', rank: 'AIR 178', exam: 'JEE Advanced', college: 'IIT Delhi' },
-  { name: 'Karan Patel', rank: 'AIR 87', exam: 'NTSE', college: 'Scholar' },
 ];
 
 export default function HomePage() {
@@ -202,9 +203,15 @@ export default function HomePage() {
             {toppers.map((topper, i) => (
               <AnimatedSection key={i} delay={i * 0.08}>
                 <div className={styles.topperCard}>
-                  <div className={styles.topperAvatar}>
-                    {topper.name.split(' ').map(n => n[0]).join('')}
-                  </div>
+                  {topper.image ? (
+                    <div className={styles.topperImageWrapper}>
+                      <Image src={topper.image} alt={topper.name} fill style={{ objectFit: 'cover' }} />
+                    </div>
+                  ) : (
+                    <div className={styles.topperAvatar}>
+                      {topper.name.split(' ').map(n => n[0]).join('')}
+                    </div>
+                  )}
                   <h4 className={styles.topperName}>{topper.name}</h4>
                   <div className={styles.topperRank}>{topper.rank}</div>
                   <div className={styles.topperExam}>{topper.exam}</div>

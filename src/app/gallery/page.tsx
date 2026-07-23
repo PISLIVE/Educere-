@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { X } from 'lucide-react';
 import AnimatedSection from '@/components/AnimatedSection';
 import SectionHeading from '@/components/SectionHeading';
@@ -16,11 +17,11 @@ const categories = [
 ];
 
 const galleryItems = [
-  { id: 1, category: 'classroom', title: 'Modern Smart Classroom', color: '#6366F1' },
-  { id: 2, category: 'classroom', title: 'Physics Lab', color: '#8B5CF6' },
-  { id: 3, category: 'events', title: 'Annual Science Fest', color: '#EC4899' },
-  { id: 4, category: 'achievements', title: 'JEE Results Day 2025', color: '#F59E0B' },
-  { id: 5, category: 'campus', title: 'Institute Building', color: '#10B981' },
+  { id: 1, category: 'achievements', title: 'UGC NET Qualification 1', color: '#6366F1', image: '/gallery/1.jpg' },
+  { id: 2, category: 'achievements', title: 'UGC NET Qualification 2', color: '#8B5CF6', image: '/gallery/2.jpg' },
+  { id: 3, category: 'classroom', title: 'Interactive Classroom Session', color: '#EC4899', image: '/gallery/3.jpg' },
+  { id: 4, category: 'events', title: 'Student Get-together & Snacks', color: '#F59E0B', image: '/gallery/4.jpg' },
+  { id: 5, category: 'campus', title: 'Modern Classroom Setup', color: '#10B981', image: '/gallery/5.jpg' },
   { id: 6, category: 'classroom', title: 'Chemistry Lab', color: '#14B8A6' },
   { id: 7, category: 'events', title: 'Teacher\'s Day Celebration', color: '#F97316' },
   { id: 8, category: 'achievements', title: 'NEET Toppers Felicitation', color: '#EF4444' },
@@ -76,11 +77,17 @@ export default function GalleryPage() {
                   onClick={() => setSelectedItem(item)}
                   style={{ background: `${item.color}20` }}
                 >
-                  <div className={styles.galleryPlaceholder} style={{ background: `linear-gradient(135deg, ${item.color}30, ${item.color}10)` }}>
-                    <div className={styles.galleryIcon} style={{ color: item.color }}>
-                      {item.title.charAt(0)}
+                  {item.image ? (
+                    <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+                      <Image src={item.image} alt={item.title} fill style={{ objectFit: 'cover' }} />
                     </div>
-                  </div>
+                  ) : (
+                    <div className={styles.galleryPlaceholder} style={{ background: `linear-gradient(135deg, ${item.color}30, ${item.color}10)` }}>
+                      <div className={styles.galleryIcon} style={{ color: item.color }}>
+                        {item.title.charAt(0)}
+                      </div>
+                    </div>
+                  )}
                   <div className={styles.galleryOverlay}>
                     <span className={styles.galleryTitle}>{item.title}</span>
                     <span className={styles.galleryCat}>{item.category}</span>
@@ -99,11 +106,17 @@ export default function GalleryPage() {
             <button className={styles.lightboxClose} onClick={() => setSelectedItem(null)}>
               <X size={24} />
             </button>
-            <div className={styles.lightboxImage} style={{ background: `linear-gradient(135deg, ${selectedItem.color}30, ${selectedItem.color}10)` }}>
-              <div className={styles.lightboxIcon} style={{ color: selectedItem.color }}>
-                {selectedItem.title.charAt(0)}
+            {selectedItem.image ? (
+              <div className={styles.lightboxImageWrapper}>
+                <Image src={selectedItem.image} alt={selectedItem.title} fill style={{ objectFit: 'contain' }} />
               </div>
-            </div>
+            ) : (
+              <div className={styles.lightboxImage} style={{ background: `linear-gradient(135deg, ${selectedItem.color}30, ${selectedItem.color}10)` }}>
+                <div className={styles.lightboxIcon} style={{ color: selectedItem.color }}>
+                  {selectedItem.title.charAt(0)}
+                </div>
+              </div>
+            )}
             <div className={styles.lightboxInfo}>
               <h3>{selectedItem.title}</h3>
               <span className={styles.galleryCat}>{selectedItem.category}</span>
