@@ -27,8 +27,8 @@ const whyChooseUs = [
 ];
 
 const toppers = [
-  { name: 'Murashra Yesmin', rank: 'Qualified', exam: 'UGC NET', college: 'Lectureship', image: '/gallery/1.jpg' },
-  { name: 'Mousumi Bharali', rank: 'Qualified', exam: 'UGC NET', college: 'Lectureship', image: '/gallery/2.jpg' },
+  { name: 'Murashra Yesmin', rank: 'Qualified', exam: 'UGC NET', college: 'Lectureship', image: '/gallery/1.jpeg' },
+  { name: 'Mousumi Bharali', rank: 'Qualified', exam: 'UGC NET', college: 'Lectureship', image: '/gallery/2.jpeg' },
   { name: 'Aditya Kumar', rank: 'AIR 245', exam: 'JEE Advanced', college: 'IIT Bombay' },
   { name: 'Priya Mehta', rank: 'AIR 189', exam: 'NEET UG', college: 'AIIMS Delhi' },
   { name: 'Rohit Verma', rank: '99.8%ile', exam: 'JEE Main', college: 'NIT Trichy' },

@@ -17,13 +17,13 @@ const categories = [
 ];
 
 const galleryItems = [
-  { id: 1, category: 'achievements', title: 'UGC NET Qualification 1', color: '#6366F1', image: '/gallery/1.jpg' },
-  { id: 2, category: 'achievements', title: 'UGC NET Qualification 2', color: '#8B5CF6', image: '/gallery/2.jpg' },
-  { id: 3, category: 'classroom', title: 'Interactive Classroom Session', color: '#EC4899', image: '/gallery/3.jpg' },
-  { id: 4, category: 'events', title: 'Student Get-together & Snacks', color: '#F59E0B', image: '/gallery/4.jpg' },
-  { id: 5, category: 'campus', title: 'Modern Classroom Setup', color: '#10B981', image: '/gallery/5.jpg' },
-  { id: 6, category: 'classroom', title: 'Chemistry Lab', color: '#14B8A6' },
-  { id: 7, category: 'events', title: 'Teacher\'s Day Celebration', color: '#F97316' },
+  { id: 1, category: 'achievements', title: 'UGC NET Qualification 1', color: '#6366F1', image: '/gallery/1.jpeg' },
+  { id: 2, category: 'achievements', title: 'UGC NET Qualification 2', color: '#8B5CF6', image: '/gallery/2.jpeg' },
+  { id: 3, category: 'classroom', title: 'Interactive Classroom Session', color: '#EC4899', image: '/gallery/3.jpeg' },
+  { id: 4, category: 'events', title: 'Student Get-together & Snacks', color: '#F59E0B', image: '/gallery/4.jpeg' },
+  { id: 5, category: 'campus', title: 'Modern Classroom Setup', color: '#10B981', image: '/gallery/5.jpeg' },
+  { id: 6, category: 'classroom', title: 'Interactive Learning', color: '#14B8A6', image: '/gallery/6.jpeg' },
+  { id: 7, category: 'events', title: 'Group Discussion', color: '#F97316', image: '/gallery/7.jpeg' },
   { id: 8, category: 'achievements', title: 'NEET Toppers Felicitation', color: '#EF4444' },
   { id: 9, category: 'campus', title: 'Library & Reading Room', color: '#6366F1' },
   { id: 10, category: 'events', title: 'Motivational Seminar', color: '#8B5CF6' },
