@@ -4,56 +4,40 @@ export interface Testimonial {
   course: string;
   result: string;
   quote: string;
-  year: string;
+  image: string;
 }
 
 export const testimonials: Testimonial[] = [
   {
-    id: '1',
-    name: 'Aditya Kumar',
-    course: 'JEE Advanced 2-Year Program',
-    result: 'AIR 245 — IIT Bombay (CSE)',
-    quote: 'Educere Classes completely transformed my preparation. The faculty\'s problem-solving approach and personal attention helped me crack JEE Advanced in my first attempt. The mock tests were incredibly close to the actual exam pattern.',
-    year: '2025',
+    id: 't1',
+    name: 'Murashra Yesmin',
+    course: 'UGC NET Paper I & II',
+    result: 'Qualified UGC NET Lectureship',
+    quote: 'Educere Classes completely transformed my preparation. The faculty\'s problem-solving approach and personal attention helped me crack UGC NET in my first attempt. The mock tests were incredibly close to the actual exam pattern.',
+    image: '/gallery/1.jpeg',
   },
   {
-    id: '2',
-    name: 'Priya Mehta',
-    course: 'NEET UG 2-Year Program',
-    result: 'AIR 189 — AIIMS Delhi',
-    quote: 'The Biology sessions by Dr. Patel were outstanding! Her visual teaching methods helped me score 360/360 in Biology. The regular NEET mock tests and analysis sessions were game-changers in my preparation.',
-    year: '2025',
+    id: 't2',
+    name: 'Mousumi Bharali',
+    course: 'UGC NET Paper I & II',
+    result: 'Qualified UGC NET Lectureship',
+    quote: 'The Education sessions by Dr. Sharma were outstanding! His teaching methods helped me clear my concepts thoroughly. The regular NET mock tests and analysis sessions were game-changers in my preparation.',
+    image: '/gallery/2.jpeg',
   },
   {
-    id: '3',
+    id: 't3',
     name: 'Rohit Verma',
-    course: 'JEE Main 1-Year Program',
-    result: '99.8 Percentile — NIT Trichy',
-    quote: 'I joined Educere in Class 12 and the structured approach helped me cover the entire syllabus efficiently. Vikram Sir\'s mathematics classes were phenomenal — complex problems became simple after his explanations.',
-    year: '2025',
+    course: 'SLET (NE Region) Program',
+    result: 'Qualified SLET',
+    quote: 'The SLET specific test series and the detailed coverage of Paper-I at Educere gave me the exact push I needed. The study materials are concise, up-to-date, and highly relevant.',
+    image: '/testimonials/t3.jpg',
   },
   {
-    id: '4',
+    id: 't4',
     name: 'Sneha Reddy',
-    course: 'NEET UG Crash Course',
-    result: 'AIR 512 — Government Medical College',
-    quote: 'As a dropper, I was demotivated. Educere\'s supportive environment and personalized study plan gave me the confidence to improve my score by 200 marks. The crash course was intense but incredibly effective.',
-    year: '2024',
-  },
-  {
-    id: '5',
-    name: 'Karan Patel',
-    course: 'Foundation Program',
-    result: 'NTSE Scholar — AIR 87',
-    quote: 'I joined Educere in Class 9 and it was the best decision. The Foundation program not only helped me ace school exams but also cracked NTSE. Now I feel fully prepared for JEE preparation in Class 11.',
-    year: '2024',
-  },
-  {
-    id: '6',
-    name: 'Ananya Singh',
-    course: 'JEE Advanced 2-Year Program',
-    result: 'AIR 178 — IIT Delhi (EE)',
-    quote: 'The doubt-clearing sessions at Educere are unmatched. No matter how silly the question, faculty always encouraged us to ask. Dr. Sharma\'s Physics classes gave me the edge I needed for JEE Advanced.',
-    year: '2024',
-  },
+    course: 'UGC NET Commerce',
+    result: 'Qualified JRF',
+    quote: 'I joined Educere with a lot of doubts about Commerce Paper-II, but Prof. Verma made accounting and finance so easy to understand. Qualifying JRF wouldn\'t have been possible without this guidance.',
+    image: '/testimonials/t4.jpg',
+  }
 ];

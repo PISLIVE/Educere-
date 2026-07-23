@@ -16,9 +16,9 @@ const iconMap: Record<string, React.ReactNode> = {
 };
 
 const categoryLabels: Record<string, string> = {
-  jee: 'JEE',
-  neet: 'NEET',
-  foundation: 'Foundation',
+  paper1: 'Paper I',
+  paper2: 'Paper II',
+  slet: 'SLET-NE',
 };
 
 interface CourseCardProps {

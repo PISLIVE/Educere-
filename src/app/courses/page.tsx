@@ -68,21 +68,21 @@ export default function CoursesPage() {
                 <thead>
                   <tr>
                     <th>Feature</th>
-                    <th>JEE 2-Year</th>
-                    <th>JEE 1-Year</th>
-                    <th>NEET 2-Year</th>
-                    <th>NEET Crash</th>
-                    <th>Foundation</th>
+                    <th>Paper-I</th>
+                    <th>Paper-II (Ed)</th>
+                    <th>Paper-II (Com)</th>
+                    <th>Combo (I+II)</th>
+                    <th>SLET-NE</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr><td>Duration</td><td>2 Years</td><td>1 Year</td><td>2 Years</td><td>1 Year</td><td>1-2 Years</td></tr>
-                  <tr><td>Classes/Week</td><td>5 days</td><td>6 days</td><td>5 days</td><td>6 days</td><td>3 days</td></tr>
-                  <tr><td>Mock Tests</td><td>Weekly</td><td>Bi-weekly</td><td>Weekly</td><td>Daily</td><td>Monthly</td></tr>
+                  <tr><td>Duration</td><td>4 Months</td><td>6 Months</td><td>6 Months</td><td>6 Months</td><td>5 Months</td></tr>
+                  <tr><td>Classes/Week</td><td>3 days</td><td>4 days</td><td>4 days</td><td>5 days</td><td>4 days</td></tr>
+                  <tr><td>Mock Tests</td><td>Bi-weekly</td><td>Weekly</td><td>Weekly</td><td>Weekly</td><td>Bi-weekly</td></tr>
                   <tr><td>Study Material</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
-                  <tr><td>Doubt Sessions</td><td>Daily</td><td>Daily</td><td>Daily</td><td>Daily</td><td>Weekly</td></tr>
-                  <tr><td>Personal Mentor</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td><td>—</td></tr>
-                  <tr><td>Board Prep</td><td>✓</td><td>✓</td><td>✓</td><td>—</td><td>✓</td></tr>
+                  <tr><td>Doubt Sessions</td><td>Weekly</td><td>Weekly</td><td>Weekly</td><td>Daily</td><td>Weekly</td></tr>
+                  <tr><td>Personal Mentor</td><td>—</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
+                  <tr><td>PYQ Analysis</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
                 </tbody>
               </table>
             </div>

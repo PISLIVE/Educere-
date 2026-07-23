@@ -27,7 +27,7 @@ export default function FacultyPage() {
             <span>Faculty</span>
           </div>
           <h1>Meet Our Expert Faculty</h1>
-          <p>Learn from IIT & AIIMS alumni with decades of teaching excellence</p>
+          <p>Learn from NET/JRF qualified educators with decades of teaching excellence</p>
         </div>
       </section>
 

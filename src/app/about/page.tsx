@@ -14,11 +14,11 @@ import styles from './page.module.css';
 
 const timeline = [
   { year: '2010', title: 'Founded', desc: 'Educere Classes was established with a vision to provide quality coaching for competitive exams.' },
-  { year: '2013', title: 'First IIT Selection', desc: 'Our first batch produced 12 IIT selections, marking the beginning of a legacy.' },
-  { year: '2016', title: 'NEET Wing Added', desc: 'Expanded to include NEET UG preparation with specialized Biology faculty.' },
-  { year: '2019', title: '1000+ Selections', desc: 'Crossed the milestone of 1000 total IIT/NEET selections.' },
+  { year: '2013', title: 'First JRF Selection', desc: 'Our first batch produced 12 JRF selections, marking the beginning of a legacy.' },
+  { year: '2016', title: 'SLET Wing Added', desc: 'Expanded to include SLET NE preparation with specialized regional faculty.' },
+  { year: '2019', title: '1000+ Selections', desc: 'Crossed the milestone of 1000 total UGC NET/JRF selections.' },
   { year: '2022', title: 'Infrastructure Upgrade', desc: 'State-of-the-art classrooms, digital boards, and a dedicated library added.' },
-  { year: '2025', title: 'New Records', desc: '500+ selections in a single year with AIR 178 in JEE Advanced.' },
+  { year: '2025', title: 'New Records', desc: '500+ selections in a single year with numerous top ranks in UGC NET.' },
 ];
 
 const approach = [

@@ -24,7 +24,7 @@ const galleryItems = [
   { id: 5, category: 'campus', title: 'Modern Classroom Setup', color: '#10B981', image: '/gallery/5.jpeg' },
   { id: 6, category: 'classroom', title: 'Interactive Learning', color: '#14B8A6', image: '/gallery/6.jpeg' },
   { id: 7, category: 'events', title: 'Group Discussion', color: '#F97316', image: '/gallery/7.jpeg' },
-  { id: 8, category: 'achievements', title: 'NEET Toppers Felicitation', color: '#EF4444' },
+  { id: 8, category: 'achievements', title: 'JRF Scholars Felicitation', color: '#EF4444' },
   { id: 9, category: 'campus', title: 'Library & Reading Room', color: '#6366F1' },
   { id: 10, category: 'events', title: 'Motivational Seminar', color: '#8B5CF6' },
   { id: 11, category: 'campus', title: 'Student Lounge', color: '#EC4899' },

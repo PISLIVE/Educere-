@@ -18,8 +18,8 @@ import { courses } from '@/data/courses';
 import styles from './page.module.css';
 
 const whyChooseUs = [
-  { icon: <Users size={28} />, title: 'Expert Faculty', desc: 'IIT/AIIMS alumni with 10-20 years of teaching experience' },
-  { icon: <Trophy size={28} />, title: 'Proven Results', desc: '500+ IIT/NIT & medical college selections in 2025' },
+  { icon: <Users size={28} />, title: 'Expert Faculty', desc: 'Renowned academicians with 10-20 years of teaching experience' },
+  { icon: <Trophy size={28} />, title: 'Proven Results', desc: '500+ NET/JRF & SLET selections in recent years' },
   { icon: <Target size={28} />, title: 'Personal Attention', desc: 'Small batch sizes of max 40 students per class' },
   { icon: <BookOpen size={28} />, title: 'Study Material', desc: 'Comprehensive study packages with DPP & revision notes' },
   { icon: <MessageCircle size={28} />, title: 'Doubt Sessions', desc: 'Daily doubt-clearing sessions with subject experts' },
@@ -29,10 +29,10 @@ const whyChooseUs = [
 const toppers = [
   { name: 'Murashra Yesmin', rank: 'Qualified', exam: 'UGC NET', college: 'Lectureship', image: '/gallery/1.jpeg' },
   { name: 'Mousumi Bharali', rank: 'Qualified', exam: 'UGC NET', college: 'Lectureship', image: '/gallery/2.jpeg' },
-  { name: 'Aditya Kumar', rank: 'AIR 245', exam: 'JEE Advanced', college: 'IIT Bombay' },
-  { name: 'Priya Mehta', rank: 'AIR 189', exam: 'NEET UG', college: 'AIIMS Delhi' },
-  { name: 'Rohit Verma', rank: '99.8%ile', exam: 'JEE Main', college: 'NIT Trichy' },
-  { name: 'Sneha Reddy', rank: 'AIR 512', exam: 'NEET UG', college: 'Govt. Medical' },
+  { name: 'Aditya Kumar', rank: 'AIR 45', exam: 'UGC NET', college: 'JRF Qualified' },
+  { name: 'Priya Mehta', rank: 'Qualified', exam: 'SLET NE', college: 'Assistant Professor' },
+  { name: 'Rohit Verma', rank: 'AIR 89', exam: 'UGC NET', college: 'JRF Qualified' },
+  { name: 'Sneha Reddy', rank: 'Qualified', exam: 'UGC NET', college: 'Lectureship' },
 ];
 
 export default function HomePage() {
@@ -84,7 +84,7 @@ export default function HomePage() {
             <div className={styles.achievements}>
               <div className={styles.achieveBadge}>
                 <Trophy size={18} />
-                <span><strong>500+</strong> IIT/NEET Selections</span>
+                <span><strong>500+</strong> NET/JRF Selections</span>
               </div>
               <div className={styles.achieveBadge}>
                 <Award size={18} />
@@ -143,7 +143,7 @@ export default function HomePage() {
         <div className={`container ${styles.statsGrid}`}>
           <StatCounter end={15} suffix="+" label="Years Experience" icon={<Clock size={24} />} />
           <StatCounter end={5000} suffix="+" label="Students Enrolled" icon={<Users size={24} />} />
-          <StatCounter end={500} suffix="+" label="IIT/NEET Selections" icon={<Trophy size={24} />} />
+          <StatCounter end={500} suffix="+" label="NET/JRF Selections" icon={<Trophy size={24} />} />
           <StatCounter end={95} suffix="%" label="Success Rate" icon={<Target size={24} />} />
         </div>
       </section>

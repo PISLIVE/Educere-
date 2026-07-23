@@ -14,10 +14,10 @@ const quickLinks = [
 ];
 
 const courseLinks = [
-  { label: 'JEE Advanced Program', href: '/courses/jee-advanced-2year' },
-  { label: 'JEE Main Program', href: '/courses/jee-main-1year' },
-  { label: 'NEET UG Program', href: '/courses/neet-2year' },
-  { label: 'NEET Crash Course', href: '/courses/neet-1year' },
+  { label: 'UGC NET Paper I', href: '/courses/ugc-net-paper-1' },
+  { label: 'UGC NET Education', href: '/courses/ugc-net-education' },
+  { label: 'UGC NET Commerce', href: '/courses/ugc-net-commerce' },
+  { label: 'SLET NE Program', href: '/courses/slet-ne-comprehensive' },
   { label: 'Foundation (9-10)', href: '/courses/foundation-9-10' },
   { label: 'Dropper Batch', href: '/courses/dropper-batch' },
 ];

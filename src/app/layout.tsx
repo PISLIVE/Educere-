@@ -12,13 +12,12 @@ export const metadata: Metadata = {
   description:
     "Educere Classes is a premier coaching institute for UGC NET, JRF, and SLET preparation. Expert faculty, proven results, and personalized attention to help you achieve your dream rank.",
   keywords: [
-    "IIT JEE coaching",
-    "NEET coaching",
-    "Educere Classes",
-    "JEE Advanced preparation",
-    "NEET UG preparation",
-    "best coaching institute",
-    "competitive exam coaching",
+    "UGC NET coaching",
+    "JRF preparation",
+    "SLET NE coaching",
+    "NET Paper 1 coaching",
+    "Guwahati coaching institute",
+    "best coaching for NET",
   ],
   openGraph: {
     title: "Educere Classes — Best UGC NET & JRF Coaching Institute",

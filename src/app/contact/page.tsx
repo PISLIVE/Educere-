@@ -125,10 +125,9 @@ export default function ContactPage() {
                         onChange={(e) => setFormData({ ...formData, course: e.target.value })}
                       >
                         <option value="">Select a course</option>
-                        <option value="jee-advanced">JEE Advanced Program</option>
-                        <option value="jee-main">JEE Main Program</option>
-                        <option value="neet-2year">NEET 2-Year Program</option>
-                        <option value="neet-crash">NEET Crash Course</option>
+                        <option value="paper-1">UGC NET Paper I</option>
+                        <option value="paper-2">UGC NET Paper II</option>
+                        <option value="slet">SLET NE Program</option>
                         <option value="foundation">Foundation Program</option>
                         <option value="dropper">Dropper Batch</option>
                       </select>

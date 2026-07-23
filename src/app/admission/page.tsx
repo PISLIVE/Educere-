@@ -18,10 +18,10 @@ const steps = [
 ];
 
 const feeData = [
-  { course: 'JEE Advanced — 2 Year', fee: '₹1,20,000/year', installment: '₹12,000 × 10' },
-  { course: 'JEE Main — 1 Year', fee: '₹85,000/year', installment: '₹8,500 × 10' },
-  { course: 'NEET UG — 2 Year', fee: '₹1,10,000/year', installment: '₹11,000 × 10' },
-  { course: 'NEET UG — Crash Course', fee: '₹75,000', installment: '₹7,500 × 10' },
+  { course: 'UGC NET Paper I', fee: '₹12,000', installment: '₹2,000 × 6' },
+  { course: 'UGC NET Paper II', fee: '₹20,000', installment: '₹4,000 × 5' },
+  { course: 'UGC NET Combo (I+II)', fee: '₹28,000', installment: '₹4,000 × 7' },
+  { course: 'SLET NE Comprehensive', fee: '₹18,000', installment: '₹3,000 × 6' },
   { course: 'Foundation (9-10)', fee: '₹50,000/year', installment: '₹5,000 × 10' },
   { course: 'Dropper Batch', fee: '₹90,000', installment: '₹9,000 × 10' },
 ];
@@ -54,7 +54,7 @@ const faqs = [
 ];
 
 const importantDates = [
-  { event: 'New Batch Starts (JEE/NEET)', date: 'April 15, 2026' },
+  { event: 'New Batch Starts (UGC NET)', date: 'April 15, 2026' },
   { event: 'Foundation Batch Starts', date: 'April 20, 2026' },
   { event: 'Scholarship Test', date: 'March 25, 2026' },
   { event: 'Crash Course Begins', date: 'January 10, 2027' },
@@ -209,10 +209,9 @@ export default function AdmissionPage() {
                       <label className="form-label" htmlFor="adm-course">Course Interested</label>
                       <select id="adm-course" className="form-select" value={formData.course} onChange={(e) => setFormData({...formData, course: e.target.value})} required>
                         <option value="">Select course</option>
-                        <option value="jee-advanced">JEE Advanced Program</option>
-                        <option value="jee-main">JEE Main Program</option>
-                        <option value="neet-2year">NEET 2-Year</option>
-                        <option value="neet-crash">NEET Crash Course</option>
+                        <option value="paper-1">UGC NET Paper I</option>
+                        <option value="paper-2">UGC NET Paper II</option>
+                        <option value="slet">SLET NE Program</option>
                         <option value="foundation">Foundation</option>
                         <option value="dropper">Dropper Batch</option>
                       </select>
