@@ -72,7 +72,7 @@ export default function TestimonialSlider() {
               <div>
                 <div className={styles.authorName}>{t.name}</div>
                 <div className={styles.authorResult}>{t.result}</div>
-                <div className={styles.authorCourse}>{t.course} • {t.year}</div>
+                <div className={styles.authorCourse}>{t.course}</div>
               </div>
             </div>
           </motion.div>
