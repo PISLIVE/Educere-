@@ -53,7 +53,7 @@ export default function Footer() {
               </div>
             </div>
             <p className={styles.aboutText}>
-              Empowering students to achieve academic excellence since 2010. We specialize in IIT-JEE & NEET preparation with a proven track record of producing top rankers.
+              Empowering students to achieve academic excellence since 2010. We specialize in UGC NET, JRF, and SLET preparation with a proven track record of producing top rankers.
             </p>
             <div className={styles.socialLinks}>
               <a href="#" aria-label="Instagram" className={styles.socialLink}><Camera size={20} /></a>

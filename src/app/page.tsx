@@ -68,8 +68,7 @@ export default function HomePage() {
             </h1>
 
             <p className={styles.heroSubtitle}>
-              Premier coaching institute for IIT-JEE & NEET preparation with expert faculty,
-              proven results, and personalized mentoring to help you achieve your dream rank.
+              EDUCERE CLASSES is a great Coaching Platform for all those UGC NET, JRF, and SLET aspirants who are wandering around for proper direction, guidance, and motivation.
             </p>
 
             <div className={styles.heroCtas}>
@@ -111,7 +110,7 @@ export default function HomePage() {
                   <GraduationCap size={48} />
                 </div>
                 <h3>Start Your Journey</h3>
-                <p>Join the best coaching for IIT-JEE & NEET</p>
+                <p>Join the best coaching for UGC NET & JRF</p>
                 <div className={styles.heroCardStats}>
                   <div className={styles.heroCardStat}>
                     <span className={styles.statNum}>5000+</span>
@@ -130,10 +129,10 @@ export default function HomePage() {
             </div>
             {/* Floating Elements */}
             <div className={`${styles.floatingBadge} ${styles.float1}`}>
-              <Brain size={20} /> JEE Advanced
+              <Brain size={20} /> UGC NET
             </div>
             <div className={`${styles.floatingBadge} ${styles.float2}`}>
-              <Microscope size={20} /> NEET UG
+              <Microscope size={20} /> JRF / SLET
             </div>
           </motion.div>
         </div>
@@ -155,7 +154,7 @@ export default function HomePage() {
           <SectionHeading
             badge="Our Programs"
             title="Courses Designed for Your Success"
-            subtitle="Choose from our range of expertly crafted programs tailored for IIT-JEE, NEET, and foundation level preparation."
+            subtitle="Choose from our range of expertly crafted programs tailored for UGC NET, JRF, and SLET preparation."
           />
           <div className={styles.coursesGrid}>
             {featuredCourses.map((course, i) => (

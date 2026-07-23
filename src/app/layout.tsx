@@ -6,11 +6,11 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: {
-    default: "Educere Classes — Best IIT-JEE & NEET Coaching Institute",
     template: "%s | Educere Classes",
+    default: "Educere Classes — Best UGC NET, JRF & SLET Coaching Institute",
   },
   description:
-    "Educere Classes is a premier coaching institute for IIT-JEE & NEET preparation. Expert faculty, proven results, and personalized attention to help you achieve your dream rank.",
+    "Educere Classes is a premier coaching institute for UGC NET, JRF, and SLET preparation. Expert faculty, proven results, and personalized attention to help you achieve your dream rank.",
   keywords: [
     "IIT JEE coaching",
     "NEET coaching",
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
     "competitive exam coaching",
   ],
   openGraph: {
-    title: "Educere Classes — Best IIT-JEE & NEET Coaching Institute",
+    title: "Educere Classes — Best UGC NET & JRF Coaching Institute",
     description:
-      "Premier coaching institute for IIT-JEE & NEET with expert faculty and proven results.",
+      "Premier coaching institute for UGC NET & JRF with expert faculty and proven results.",
     type: "website",
     locale: "en_IN",
     siteName: "Educere Classes",

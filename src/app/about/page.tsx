@@ -47,7 +47,9 @@ export default function AboutPage() {
             <span>About Us</span>
           </div>
           <h1>About Educere Classes</h1>
-          <p>Empowering students to achieve academic excellence since 2010</p>
+          <p style={{ maxWidth: '800px', margin: '0 auto', fontSize: '1.1rem', lineHeight: '1.6' }}>
+            EDUCERE CLASSES is a great Coaching Platform for all those UGC NET, JRF, and SLET aspirants who are wandering around for proper direction, guidance, and motivation. Here learners will be provided the most useful and conceptual lectures, demonstrations, study materials, unitwise tests, and previous years' practices. So LET'S JOIN HANDS AND DO IT.
+          </p>
         </div>
       </section>
 
@@ -67,14 +69,14 @@ export default function AboutPage() {
                 <Target size={32} />
               </div>
               <h3>Our Mission</h3>
-              <p>To provide holistic, concept-based education with personalized mentoring, enabling students to crack IIT-JEE & NEET with top ranks and build a strong foundation for life.</p>
+              <p>To provide holistic, concept-based education with personalized mentoring, enabling students to crack UGC NET, JRF, and SLET with top ranks and build a strong foundation for their lectureship careers.</p>
             </AnimatedSection>
             <AnimatedSection delay={0.2} className={styles.vmCard}>
               <div className={styles.vmIcon}>
                 <Heart size={32} />
               </div>
               <h3>Our Values</h3>
-              <p>Integrity, excellence, student-first approach, and a relentless commitment to nurturing future leaders in science, technology, and medicine.</p>
+              <p>Integrity, excellence, student-first approach, and a relentless commitment to nurturing future academic leaders and educators.</p>
             </AnimatedSection>
           </div>
         </div>

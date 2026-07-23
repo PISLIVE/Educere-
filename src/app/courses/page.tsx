@@ -26,7 +26,7 @@ export default function CoursesPage() {
             <span>Courses</span>
           </div>
           <h1>Our Courses</h1>
-          <p>Expertly designed programs for IIT-JEE, NEET, and foundation level preparation</p>
+          <p>Expertly designed programs for UGC NET, JRF, and SLET preparation</p>
         </div>
       </section>
 
