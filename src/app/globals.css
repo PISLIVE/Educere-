@@ -206,7 +206,7 @@ p {
 
 @media (max-width: 768px) {
   .container {
-    padding: 0 var(--space-md);
+    padding: 0 var(--space-sm);
   }
 }
 
@@ -217,7 +217,7 @@ p {
 
 @media (max-width: 768px) {
   .section {
-    padding: var(--space-3xl) 0;
+    padding: var(--space-2xl) 0;
   }
 }
 
@@ -408,6 +408,22 @@ p {
   padding: calc(var(--navbar-height) + var(--space-4xl)) 0 var(--space-3xl);
   background: var(--gradient-hero);
   overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .page-hero {
+    padding: calc(var(--navbar-height) + var(--space-2xl)) 0 var(--space-xl);
+    border-radius: 0 0 1.5rem 1.5rem;
+  }
+  
+  .page-hero h1 {
+    font-size: 2.2rem;
+  }
+  
+  .page-hero p {
+    font-size: 1rem;
+    padding: 0 var(--space-sm);
+  }
 }
 
 .page-hero::before {

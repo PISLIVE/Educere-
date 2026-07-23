@@ -189,7 +189,9 @@
 .mobileOverlay {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   z-index: 999;
   opacity: 0;
   pointer-events: none;
@@ -263,12 +265,16 @@
 }
 
 @media (max-width: 640px) {
+  .topBarInner {
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.3rem;
+  }
+  
   .topBarText {
     font-size: 0.7rem;
-  }
-
-  .topBarRight {
-    display: none;
+    text-align: center;
+    white-space: normal;
   }
 
   .mobileMenu {

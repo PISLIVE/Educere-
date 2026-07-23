@@ -505,3 +505,10 @@
     width: 100%;
   }
 }
+
+@media (max-width: 480px) {
+  .statsGrid {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+}
