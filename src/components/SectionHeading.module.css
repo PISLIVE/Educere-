@@ -1,0 +1,79 @@
+.heading {
+  margin-bottom: var(--space-3xl);
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.35rem 1rem;
+  border-radius: var(--radius-full);
+  background: var(--color-primary-light);
+  color: var(--color-primary);
+  font-family: var(--font-accent);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: var(--space-md);
+}
+
+.title {
+  margin-bottom: var(--space-md);
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  max-width: 600px;
+  line-height: 1.7;
+}
+
+.center .subtitle {
+  margin: 0 auto;
+}
+
+.decoration {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: var(--space-lg);
+}
+
+.center .decoration {
+  justify-content: center;
+}
+
+.line {
+  width: 40px;
+  height: 3px;
+  background: var(--gradient-primary);
+  border-radius: 2px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-primary);
+}
+
+/* Light variant for dark backgrounds */
+.light .badge {
+  background: rgba(255, 255, 255, 0.15);
+  color: #C7D2FE;
+}
+
+.light .title {
+  color: #F1F5F9;
+}
+
+.light .subtitle {
+  color: #94A3B8;
+}
